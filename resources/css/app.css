@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* No gradients allowed, enforcing solid backgrounds only as per prompt */
+    body {
+        @apply bg-brand-neutral text-slate-800;
+    }
+}
